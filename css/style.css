@@ -1,0 +1,149 @@
+html,body {
+  margin:0;
+  padding:0;
+ 
+   font-family: 'Raleway', sans-serif !important;
+
+}
+#map {
+  height: 100vh;
+  width: 60%;
+
+ 
+  
+  
+}
+.legend {
+	background-color:white;
+	text-align:center;
+	font-size:24px !important;
+	padding:20px;
+	line-height:20px;
+	margin-top:50px;
+}
+	.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+
+		}
+		#bottombar {
+			background-color:#e1313b;
+			width:60%;
+				box-sizing: border-box;
+				color:white;
+				padding:20px;
+				position:absolute;
+				left:0px;
+				top:1192px;
+				z-index:9;
+				text-align:center;
+
+			
+
+		}
+		.white {
+			color:white;
+		}
+		#secondbox {
+			background-color:white;
+		}
+
+h1 {
+font-family: 'Montserrat', sans-serif !important;
+	
+	color:white;
+	font-size:48px !important;
+	font-weight:700 !important;
+}
+
+
+
+h3 {
+font-family: 'Sail', cursive !important;
+	font-size:34px !important;
+	color:white !important;
+}
+.box {
+	border:3px solid black;
+	width:30%;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+	margin:0px auto;
+	padding:10px;
+	margin-bottom:10px;
+	background-color:#d0c621;
+	color:white !important;
+}
+.snowy {
+	width:100%;
+	height:40vh;
+	
+	opacity:.5;
+}
+
+
+
+h2 {
+	
+	font-size:36px !important;
+	 font-family: 'Raleway', sans-serif !important;
+}
+#map {
+  height: 100vh;
+  width:60%;
+  float:left;
+
+}
+
+li {
+	font-size: 18px !important;
+}
+
+
+
+#sidebar {
+	background-color:#575757;
+	color:white;
+	padding:30px;
+	float:left;
+	width:40%;
+		box-sizing: border-box;
+}
+#secondsidebar {
+	background-color:#d0c621;
+	color:black;
+	padding:30px;
+	width:40%;
+	float:left;
+	box-sizing: border-box;
+	padding-bottom:60px;
+}
+
+p {
+	font-size:18px !important;
+}
+
+.bold {
+	font-family: 'Montserrat', sans-serif !important;
+	
+	color:black !important;
+	font-size:36px !important;
+
+}
+
+#intro {
+	color:#d08620;
+	color:white;
+	font-size:24px;
+	margin: 0px auto;
+	padding:20px;
+	text-align:center;
+	opacity:.9;
+
+	margin:15px;
+
+}
