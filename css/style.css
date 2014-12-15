@@ -1,149 +1,246 @@
 html,body {
   margin:0;
   padding:0;
+  height:100%;
+  width:100%;
+  font-family: 'Raleway', sans-serif;
  
-   font-family: 'Raleway', sans-serif !important;
-
 }
-#map {
-  height: 100vh;
-  width: 60%;
 
- 
-  
-  
-}
-.legend {
-	background-color:white;
-	text-align:center;
-	font-size:24px !important;
+.header {
+	margin:20px;
 	padding:20px;
-	line-height:20px;
-	margin-top:50px;
-}
-	.legend i {
-			width: 18px;
-			height: 18px;
-			float: left;
-			margin-right: 8px;
-			opacity: 0.7;
-
-		}
-		#bottombar {
-			background-color:#e1313b;
-			width:60%;
-				box-sizing: border-box;
-				color:white;
-				padding:20px;
-				position:absolute;
-				left:0px;
-				top:1192px;
-				z-index:9;
-				text-align:center;
-
-			
-
-		}
-		.white {
-			color:white;
-		}
-		#secondbox {
-			background-color:white;
-		}
-
-h1 {
-font-family: 'Montserrat', sans-serif !important;
-	
-	color:white;
-	font-size:48px !important;
-	font-weight:700 !important;
-}
-
-
-
-h3 {
-font-family: 'Sail', cursive !important;
-	font-size:34px !important;
-	color:white !important;
-}
-.box {
-	border:3px solid black;
-	width:30%;
-	-webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
+	width:80%;
 	margin:0px auto;
-	padding:10px;
-	margin-bottom:10px;
-	background-color:#d0c621;
-	color:white !important;
 }
-.snowy {
-	width:100%;
-	height:40vh;
+.footer {
+	width:80%;
+	  margin:0px auto;
+
+}
+
+.square4 {
+
+    background-image: url('http://seniorplanet.org/wp-content/uploads/2012/12/Senior-Planet-Exploration-Center2.jpg');
+    display:block;
+  width:23.5%;
+    height:280px;
+    background-size:cover;
+    float:left;
+    padding:10px !important;
+    text-align:center;
+}
+
+.square4:hover {
+    background-color:#F0D318;
+background-image:none;
+	font-size:18px;
+	padding:10px !important;
+
+
 	
-	opacity:.5;
+
+   text-align:center;
+}
+.square4 #text {
+	display:none;
+}
+.square4:hover #text {
+	display:block;
+
+}
+.square2 {
+
+    background-image: url('http://ww1.prweb.com/prfiles/2013/03/06/10503817/ipad%20class.jpg');
+     display:block;
+  width:23.7%;
+    height:280px;
+    background-size:cover;
+    float:left;
+    padding:10px !important;
+
+}
+.square2 #text2 {
+	display:none;
 }
 
+.square2:hover {
+    background-image: none;
+    background-color: #575757;
+  
+	font-size:18px;
 
+	float:left;
+	  width:23.7%;
+  
+   height:280px;
+   text-align:center;
+   padding:10px !important;
+   padding-top:20px !important;
+
+}
+.square2:hover #text2 {
+	display:block;
+}
+.square1 {
+	background-color:#F0D318;
+	padding:10px;
+	font-size:18px;
+
+	float:left;
+	  width:23.7%;
+  
+   height:280px;
+   text-align:center;
+}
+.square1:hover {
+	background-image: url('http://seniorplanet.org/wp-content/uploads/2013/04/Senior-Planet-iPad-class.jpg');
+		background-color:#F0D318;
+		background-size:cover;
+
+
+
+}
+.square1:hover #text {
+	display:none;
+
+
+}
+.square3 {
+	background-color:#575757;
+	padding:10px;
+	font-size:18px;
+
+	float:left;
+  width:23.7%;
+    height:280px;
+    text-align:center;
+}
+.square3:hover {
+	background-image: url('http://oats.org/wp-content/uploads/2014/12/oats-class-4.jpg');
+background-size:cover;
+}
+.square3:hover #text {
+	display: none;
+}
+
+.title {
+
+	border-radius:7px;
+	width:700px;
+
+	padding:10px;
+
+
+ background:#575757;
+ color:#F0D318;
+ float:left;
+ margin:10px;
+ margin-left: 0px !important;
+}
+
+.logo {
+
+	float:left;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.leaflet-popup-content-wrapper {
+background: #e3312b !important;
+box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+color: white !important;
+padding:20px;
+padding-top:20px;
+
+width:450px;
+height:450px;
+text-align:left !important;
+
+
+}
+.leaflet-popup-content {
+
+	font-size:18px;
+	  font-family: 'Raleway', sans-serif;
+	  padding:20px;
+padding-top:40px;
+
+}
 
 h2 {
-	
-	font-size:36px !important;
-	 font-family: 'Raleway', sans-serif !important;
+	font-size:48px;
+	color:white;
+
+
+font-weight: normal;
+}
+
+h3 {
+	font-size:28px;
+}
+#text
+
+
+#searchAddress {
+	height: 43px;
+	font-size: 30px;
+	border-radius: 7px;
+	margin: 0 auto;
+	display: block;
+	padding: 0 10px;
+	margin-top:40px;
+	margin-bottom:40px;
 }
 #map {
-  height: 100vh;
-  width:60%;
-  float:left;
-
+  height: 100%;
+  width: 80%;
+  margin:0px auto;
+  border-top: 5px solid #575757;
 }
 
-li {
-	font-size: 18px !important;
+#mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+	background:rgba(51, 51, 51, 0.5);
+  z-index: 10;
 }
 
 
-
-#sidebar {
-	background-color:#575757;
-	color:white;
-	padding:30px;
-	float:left;
-	width:40%;
-		box-sizing: border-box;
-}
-#secondsidebar {
-	background-color:#d0c621;
-	color:black;
-	padding:30px;
-	width:40%;
-	float:left;
-	box-sizing: border-box;
-	padding-bottom:60px;
+#splash {
+	height: 400px;
+	width:680px;
+	background: rgba(227, 49, 43, 0.7);
+	margin: auto;
+	position: absolute;
+	top: 220px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 20;
+	border-radius: 13px;
+	padding: 20px;
 }
 
-p {
-	font-size:18px !important;
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('http://seniorplanet.org/wp-content/themes/seniorplanet/fonts/BebasNeue-webfont.eot?iefix') format('eot'),
+         url('http://seniorplanet.org/wp-content/themes/seniorplanet/fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#webfontfvFLBU0N') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.bold {
-	font-family: 'Montserrat', sans-serif !important;
-	
-	color:black !important;
-	font-size:36px !important;
 
-}
-
-#intro {
-	color:#d08620;
-	color:white;
-	font-size:24px;
-	margin: 0px auto;
-	padding:20px;
-	text-align:center;
-	opacity:.9;
-
-	margin:15px;
-
-}
